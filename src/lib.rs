@@ -7,7 +7,7 @@ where
 {
     for line in reader.lines() {
         let line = line?;
-        if line.contains(&pattern) {
+        if line.contains(pattern) {
             writeln!(writer, "{}", line)?;
         }
     }
