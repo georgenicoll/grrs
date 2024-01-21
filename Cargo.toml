@@ -1,5 +1,5 @@
 [package]
-name = "grrs"
+name = "grrs-gron"
 version = "0.1.0"
 edition = "2021"
 authors = ["George Nicoll <george.nicoll@gmail.com>"]
