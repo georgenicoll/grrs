@@ -36,5 +36,5 @@ fn main() -> Result<()> {
         .with_context(|| format!("could not read file {}", args.path.display()))?;
     let reader = BufReader::new(f);
 
-    grrs::find_matches(reader, &args.pattern, &mut stdout())
+    grrs_gn::find_matches(reader, &args.pattern, &mut stdout())
 }
