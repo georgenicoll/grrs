@@ -1,0 +1,28 @@
+[package]
+name = "grrs"
+version = "0.1.0"
+edition = "2021"
+authors = ["George Nicoll <george.nicoll@gmail.com>"]
+license = "Apache-2.0"
+description = "A tool to search files"
+readme = "README.md"
+homepage = "https://github.com/georgenicoll/grrs"
+repository = "https://github.com/georgenicoll/grrs"
+keywords = ["cli", "search", "demo"]
+categories = ["command-line-utilities"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+clap-verbosity-flag = "2"
+env_logger = "0"
+indicatif = "0"
+log = "0"
+rand = "0"
+
+[dev-dependencies]
+assert_cmd = "2"
+assert_fs = "1"
+predicates = "3"
